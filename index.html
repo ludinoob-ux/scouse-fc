@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scouse FC — Osnovan na doku, kaljen na rijeci</title>
+<meta name="author" content="Emil Andelic">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <img src="assets/crest.svg" alt="Grb kluba Scouse FC" class="crest-mini">
+      <span class="brand-name">SCOUSE&nbsp;FC</span>
+    </div>
+    <nav class="nav">
+      <a href="#klub">Klub</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#grb">Grb</a>
+      <a href="#himna">Himna</a>
+      <a href="#video">Video</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow">Osnovan 1908. na dokovima rijeke Mersey</p>
+    <h1 class="hero-title">Jedanput dokeru,<br>uvijek dokeru.</h1>
+    <p class="hero-sub">Scouse FC nosi boje luke koja ga je othranila — mornarsko plavo nebo, mesing starih dizalica i rđu brodskih trupova.</p>
+  </div>
+  <div class="hero-manifest">
+    <div class="wrap manifest-grid">
+      <div><span class="m-label">Osnovan</span><span class="m-value">1908.</span></div>
+      <div><span class="m-label">Stadion</span><span class="m-value">Dockyard Park</span></div>
+      <div><span class="m-label">Kapacitet</span><span class="m-value">31.400</span></div>
+      <div><span class="m-label">Boje</span><span class="m-value">Plava / Mesing</span></div>
+      <div><span class="m-label">Nadimak</span><span class="m-value">Dockers</span></div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <section id="klub" class="section">
+    <div class="wrap">
+      <h2 class="section-title">O klubu</h2>
+      <div class="text-columns">
+        <p>Scouse FC osnovala je 1908. skupina lučkih radnika s pristaništa rijeke Mersey, umorna od gledanja utakmica bogatijih klubova s druge strane grada. Klub je od početka nosio ime po nadimku za stanovnike Liverpoola te je postao simbol radničke solidarnosti u gradu.</p>
+        <p>Klupske boje — mornarsko plava i mesingana žuta — potječu izravno s dokova: plava od večernjeg neba nad rijekom, mesing od okova na starim dizalicama kojima se istovarao teret. Grb kluba prikazuje sidro isprepleteno s dokerskom kukom, okruženo užetom vezanim u čvor koji simbolizira nerazdvojivost kluba i grada.</p>
+        <p>Domaći teren, Dockyard Park, izgrađen je 1931. na mjestu bivšeg skladišta i danas prima 31.400 gledatelja. Navijačka skupina "The Riverside Choir" poznata je po tome što pjesme počinje tek kad brod zatrubi s rijeke koja prolazi tik uz stadion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galerija" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title">Galerija</h2>
+      <p class="section-lead">Fotografije s Dockyard Parka i iz kluba — obrađene u GIMP-u (kolor korekcija, retuš, izrezivanje).</p>
+      <div class="gallery" id="gallery-grid">
+        <!-- Zamijeni ove placeholdere svojim fotografijama nakon obrade u GIMP-u -->
+        <figure class="gallery-item"><div class="ph">Foto 1</div><figcaption>Tribina Riverside</figcaption></figure>
+        <figure class="gallery-item"><div class="ph">Foto 2</div><figcaption>Ulaz na stadion</figcaption></figure>
+        <figure class="gallery-item"><div class="ph">Foto 3</div><figcaption>Trening dvorana</figcaption></figure>
+        <figure class="gallery-item"><div class="ph">Foto 4</div><figcaption>Navijačka trgovina</figcaption></figure>
+        <figure class="gallery-item"><div class="ph">Foto 5</div><figcaption>Pogled na Mersey</figcaption></figure>
+        <figure class="gallery-item"><div class="ph">Foto 6</div><figcaption>Momčad prije utakmice</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="grb" class="section">
+    <div class="wrap grb-grid">
+      <div class="grb-visual">
+        <img src="assets/crest.svg" alt="Grb kluba Scouse FC" class="crest-large">
+      </div>
+      <div class="grb-text">
+        <h2 class="section-title">Grb kluba</h2>
+        <p>Grb je izrađen kao vektorska grafika u Inkscapeu. Sastoji se od sidra (simbol luke), dokerske kuke i užeta vezanog u čvor — svi elementi crtani ručno pomoću Bézierovih krivulja, s ograničenom paletom od tri boje radi čitljivosti na velikim i malim formatima (majica, zastava, favicon).</p>
+        <p class="text-muted">Zamijeni <code>assets/crest.svg</code> svojom finalnom vektorskom datotekom.</p>
+        <p><a href="assets/scouse-fc-flyer.pdf" class="download-link">Preuzmi klupsku brošuru (PDF)</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="himna" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title">Klupska himna</h2>
+      <p class="section-lead">Kratka audio reklama/himna kluba, snimljena i obrađena u Audacityju (izjednačavanje glasnoće, uklanjanje šuma, fade in/out).</p>
+      <audio controls class="audio-player">
+        <source src="assets/himna.mp3" type="audio/mpeg">
+        Vaš preglednik ne podržava audio element.
+      </audio>
+      <p class="text-muted">Zamijeni <code>assets/himna.mp3</code> svojom obrađenom snimkom.</p>
+    </div>
+  </section>
+
+  <section id="video" class="section">
+    <div class="wrap">
+      <h2 class="section-title">Najava sezone</h2>
+      <p class="section-lead">Video montiran u DaVinci Resolveu — rezovi, prijelazi, korekcija boje i podloženi zvuk.</p>
+      <div class="video-frame">
+        <video controls poster="assets/video-poster.jpg">
+          <source src="assets/najava.mp4" type="video/mp4">
+          Vaš preglednik ne podržava video element.
+        </video>
+      </div>
+      <p class="text-muted">Zamijeni <code>assets/najava.mp4</code> svojim montiranim videom.</p>
+    </div>
+  </section>
+
+  <section id="kontakt" class="section section-alt">
+    <div class="wrap kontakt-grid">
+      <div>
+        <h2 class="section-title">Kontakt</h2>
+        <p>Dockyard Park, Riverside Road 12<br>info@scousefc-demo.hr</p>
+      </div>
+      <div>
+        <h3 class="mini-title">Sljedeća utakmica</h3>
+        <p>Subota, 18:00 — Dockyard Park</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>&copy; Scouse FC — fiktivni klub, izrađeno za kolegij Multimedijalni sustavi. Autor: Emil Andelic.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
